@@ -1,4 +1,5 @@
 #!/bin/bash
+# If some employees are using JetBrains (RubyMine, PyCharm) use << .jbc
 if [[ -s //etc/profile ]]; then
   source //etc/profile
 fi
